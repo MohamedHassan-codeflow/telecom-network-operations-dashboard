@@ -1,6 +1,6 @@
 {
-  "name": "telecom-ops-dashboard-react",
-  "version": "1.0.0",
+  "name": "telecom-ops-dashboard-react-pro",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,10 +13,10 @@
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "latest",
     "bootstrap": "^5.3.8",
     "@tailwindcss/vite": "latest",
     "tailwindcss": "latest",
-    "recharts": "latest",
     "sweetalert2": "latest",
     "react-icons": "latest",
     "framer-motion": "latest"

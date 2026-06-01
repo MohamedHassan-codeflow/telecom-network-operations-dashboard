@@ -2,22 +2,12 @@ function SiteMap({ sites }) {
   return (
     <article className="panel">
       <div className="panel-header">
-        <h3>Site Map</h3>
-        <span>Sample topology view</span>
+        <div><h3>Site Map</h3><p className="muted mini">Sample geo-distribution view</p></div>
       </div>
-
-      <div className="map">
-        {sites.slice(0, 45).map((site) => (
-          <span
-            key={site.id}
-            className={`site-dot ${site.status}`}
-            title={`${site.id} - ${site.status}`}
-            style={{ left: `${site.x}%`, top: `${site.y}%` }}
-          />
-        ))}
+      <div className="map-box">
+        {sites.map((site) => <span key={site.id} title={`${site.id} - ${site.status}`} className={`site-dot ${site.status}`} style={{ left: `${site.x}%`, top: `${site.y}%` }} />)}
       </div>
     </article>
   )
 }
-
 export default SiteMap

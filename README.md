@@ -1,44 +1,43 @@
-# Telecom Ops Dashboard - React Version
+# Telecom Network Operations Dashboard - React Pro v5
 
-This is the React + Vite version of the Telecom Network Operations Dashboard.
+A React + Vite telecom operations dashboard with login, routing, CSV import/export, PDF printing, realistic telecom fields, pagination, persistent settings, and responsive design.
 
-## What was improved
+## Features
+- Login page with demo credentials
+- React Router pages: Dashboard, Sites, Alarms, Reports, Settings
+- 120 demo sites and 140 demo alarms
+- Pagination for Sites and Alarms tables
+- CSV import for sites and alarms
+- CSV export for sites and alarms
+- PDF export using browser print/save as PDF
+- Telecom fields: Region, City, Technology, SLA, Assigned Team, Alarm Age
+- Functional Settings page:
+  - Theme
+  - Default Region filter
+  - SLA Mode for reports
+  - Records per page
+  - Compact view
+  - Show/hide dashboard map
+- Responsive tables, dark/light mode, and troubleshooting assistant
 
-- Converted the old HTML, CSS, and JavaScript project into React components.
-- Added Bootstrap globally through `main.jsx`.
-- Added Tailwind CSS support through Vite.
-- Replaced the old canvas KPI chart with Recharts.
-- Replaced the browser `alert()` with SweetAlert2.
-- Added Framer Motion animations for a more modern UI.
-- Added React Icons in the sidebar.
-- Organized the code into reusable components.
-- Kept the original telecom data in a separate data file.
-
-## Main components
-
-- `Sidebar.jsx`
-- `StatCard.jsx`
-- `KpiChart.jsx`
-- `SiteMap.jsx`
-- `SitesTable.jsx`
-- `AlarmsPanel.jsx`
-- `AssistantPanel.jsx`
-
-## How to run
-
-Open CMD or VS Code terminal inside this project folder, then run:
-
-```cmd
+## Run Locally
+```bash
 npm install
 npm run dev
 ```
 
-The app will open automatically in your browser.
+## Build
+```bash
+npm run build
+```
 
-## Recommended next improvements
+## CSV Site Headers Example
+id,region,city,vendor,technology,status,availability,sla,assignedTeam,ticket,x,y
 
-- Add a login page.
-- Add CSV parsing to update sites and alarms dynamically.
-- Add export to CSV or PDF.
-- Add React Router pages for Dashboard, Sites, Alarms, Reports, and Settings.
-- Add more realistic fields such as Region, Technology, SLA, Assigned Team, and Alarm Age.
+## CSV Alarm Headers Example
+id,siteId,type,severity,region,technology,alarmAge,assignedTeam,sla,rootCause,action
+
+## Vercel
+Framework: Vite
+Build command: npm run build
+Output directory: dist
