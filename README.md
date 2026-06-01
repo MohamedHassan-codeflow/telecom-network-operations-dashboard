@@ -53,7 +53,7 @@ The dashboard simulates real-world telecom NOC and RAN operational environments 
 
 ## 🌐 Live Demo
 
-👉 Add your deployment link here
+👉 (https://telecom-network-operations-dashboard-nm5z6z3du.vercel.app/)
 
 ---
 
