@@ -173,4 +173,3 @@ The project can be deployed using:
 ## 📄 License
 
 This project is open source and available under the MIT License.
->>>>>>> da2fe663555b90b4004bbef24623b2e143019864
