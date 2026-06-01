@@ -55,20 +55,10 @@ The dashboard simulates real-world telecom NOC and RAN operational environments 
 - Flexbox
 - Responsive Design
 - Canvas API
-
----
-
-## 📂 Project Structure
-
-```bash
-RAN-Operations-Dashboard/
-│
-├── index.html
-├── styles.css
-├── app.js
-├── data.js
-└── README.md
-```
+- React.Js
+- Bootstrap
+- tailwind
+- Many other Libararies
 
 ---
 
@@ -114,21 +104,6 @@ RAN-Operations-Dashboard/
 ### 🤖 Troubleshooting Assistant
 - Alarm-based troubleshooting suggestions
 - Telecom operational guidance simulation
-
----
-
-## 📈 Future Improvements
-
-- Real CSV Parsing
-- API Integration
-- Backend Integration
-- Authentication System
-- React.js Migration
-- Real Telecom Data Visualization
-- Live Alarm Streaming
-- Interactive Maps Integration
-- Database Connectivity
-- User Roles & Permissions
 
 ---
 
