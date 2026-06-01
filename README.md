@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Telecom Network Operations Dashboard - React Pro v5
 
 A React + Vite telecom operations dashboard with login, routing, CSV import/export, PDF printing, realistic telecom fields, pagination, persistent settings, and responsive design.
@@ -53,7 +52,7 @@ The dashboard simulates real-world telecom NOC and RAN operational environments 
 
 ## 🌐 Live Demo
 
-👉 (https://telecom-network-operations-dashboard-nm5z6z3du.vercel.app/)
+👉 https://telecom-network-operations-dashboard-nm5z6z3du.vercel.app/
 
 ---
 
