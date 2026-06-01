@@ -1,6 +1,6 @@
 # RAN Operations Dashboard
 
-RAN Operations Dashboard is a modern and fully responsive telecom network operations platform designed and developed using HTML5, CSS3, and JavaScript. The project focuses on providing a professional telecom-inspired operations center experience for monitoring telecom sites, managing alarms, tracking network KPIs, and supporting troubleshooting workflows across 2G, 3G, 4G and 5G networks.
+RAN Operations Dashboard is a modern and fully responsive telecom network operations platform designed and developed using HTML5, CSS3, and JavaScript, React.js, Bootstrap and many other libararies. The project focuses on providing a professional telecom-inspired operations center experience for monitoring telecom sites, managing alarms, tracking network KPIs, and supporting troubleshooting workflows across 2G, 3G, 4G and 5G networks.
 
 The dashboard simulates real-world telecom NOC and RAN operational environments by combining site monitoring systems, KPI visualization, alarm management modules, troubleshooting recommendations, responsive telecom dashboards, and network operation workflows into one centralized platform.
 
