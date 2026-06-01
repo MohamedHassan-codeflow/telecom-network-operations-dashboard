@@ -1,0 +1,25 @@
+{
+  "name": "telecom-ops-dashboard-react",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "bootstrap": "^5.3.8",
+    "@tailwindcss/vite": "latest",
+    "tailwindcss": "latest",
+    "recharts": "latest",
+    "sweetalert2": "latest",
+    "react-icons": "latest",
+    "framer-motion": "latest"
+  },
+  "devDependencies": {}
+}

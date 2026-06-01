@@ -1,4 +1,4 @@
-const siteData = [
+export const siteData = [
   {
     "id": "CAI-5G-001",
     "city": "Cairo",
@@ -1001,7 +1001,7 @@ const siteData = [
   }
 ];
 
-const alarmData = [
+export const alarmData = [
   {
     "site": "TAN-5G-005",
     "type": "Site Down",
@@ -1172,6 +1172,6 @@ const alarmData = [
   }
 ];
 
-const kpiTrend = [96.1, 97.2, 95.8, 98.4, 97.9, 99.1, 98.6];
+export const kpiTrend = [96.1, 97.2, 95.8, 98.4, 97.9, 99.1, 98.6];
 
-const suggestions = Object.fromEntries(alarmData.map(alarm => [alarm.type, alarm.solution]));
+export const suggestions = Object.fromEntries(alarmData.map(alarm => [alarm.type, alarm.solution]));
